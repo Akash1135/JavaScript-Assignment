@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Display Date</title>
+    </head>
+    <body>
+        <h2>Diplay date in dd-mm-yyyy and dd/mm/yyyy</h2>
+        <p>This page displays date in dd-mm-yyyy and dd/mm/yyyy format</p>
+        <script>
+            var today = new Date();
+            var dd = today.getDate();
+            var mm = today.getMonth();
+            var yyyy = today.getFullYear();
+            document.write(dd + "-"+mm+"-"+yyyy+", ")
+            document.write(dd + "/"+mm+"/"+yyyy)
+
+        </script>
+    </body>
+</html>
